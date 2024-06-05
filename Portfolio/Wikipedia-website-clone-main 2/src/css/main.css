@@ -1,0 +1,1281 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+/**
+ * Remove the margin in all browsers.
+ */
+body {
+  margin: 0;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+button,
+[type=button],
+[type=reset],
+[type=submit] {
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+[type=checkbox],
+[type=radio] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+[type=search] {
+  -webkit-appearance: textfield; /* 1 */
+  appearance: textfield;
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+/**
+ * Add the correct display in IE 10+.
+ */
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+[hidden] {
+  display: none;
+}
+
+#main-flexbox-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container, .fullscreen-fixed-pos-button, .main-bottom-links1__flexbox-bottom-links, figure, .article-table-subcontainer__article-container1, .article-heading__tools-dropdown, .article-heading__language-dropdown, .header__search-icon-container, .header__right-section, .header__middle-section, .header__wikipedia-logos-container, .header__wiki-container, .header__left-section {
+  display: flex;
+  align-items: center;
+}
+
+#main-flexbox-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container, .fullscreen-fixed-pos-button, .main-bottom-links1__flexbox-bottom-links, figure, .article-table-subcontainer__article-container1, .article-heading__tools-dropdown, .article-heading__language-dropdown, .header__search-icon-container, .header__right-section, .header__middle-section, .header__wikipedia-logos-container, .header__wiki-container, .header__left-section {
+  display: flex;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(248, 249, 250);
+  font: 14px sans-serif;
+  color: rgb(32, 33, 34);
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+a {
+  color: rgb(51, 102, 204);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+}
+
+small {
+  display: block;
+  margin: 18px 0;
+}
+
+#main-flexbox-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container, .fullscreen-fixed-pos-button, .main-bottom-links1__flexbox-bottom-links, figure, .article-table-subcontainer__article-container1, .article-heading__tools-dropdown, .article-heading__language-dropdown, .header__search-icon-container, .header__right-section, .header__middle-section, .header__wikipedia-logos-container, .header__wiki-container, .header__left-section {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  margin: 8px 52px 83.5px 52px;
+  border-top: 1px solid rgb(162, 169, 177);
+}
+
+.footer__top-container {
+  padding: 12px 0 0 0;
+}
+
+footer div {
+  font-size: 12px;
+  line-height: 16.8px;
+  padding: 6px 0;
+}
+
+.footer__wiki-bottom-links {
+  display: flex;
+  line-height: 24px;
+}
+
+.footer__wiki-bottom-links ul {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__wiki-bottom-links li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 8.7px 0 0;
+}
+
+.footer__wiki-bottom-buttons-container {
+  text-align: end;
+  padding: 0;
+}
+
+.footer__wiki-bottom-buttons {
+  width: 88px;
+  height: 31px;
+  padding-left: 3px;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width: 720px) {
+  .header {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .header__wikipedia-globe-icon {
+    display: none;
+  }
+  .header__middle-section {
+    display: none;
+  }
+  .header__right-grid-container {
+    justify-content: end;
+  }
+  .article-links2 {
+    display: none;
+  }
+  .header__create-account-link {
+    display: none;
+  }
+  .fullscreen-fixed-pos-button {
+    display: none;
+  }
+  .header__login-link {
+    display: none;
+  }
+  .sidebar {
+    margin-left: -338px;
+  }
+  .main-container {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .footer {
+    margin: 8px 24px 83.5px 24px;
+  }
+}
+@media (min-width: 720.1px) and (max-width: 1000px) {
+  .header {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .header__middle-section {
+    display: none;
+  }
+  .header__right-grid-container {
+    justify-content: end;
+  }
+  .header__create-account-link {
+    padding: 0 2px 0 2.5px;
+  }
+  .fullscreen-fixed-pos-button {
+    display: none;
+  }
+  .header__login-link {
+    padding: 0 6px 0 6px;
+  }
+  .sidebar {
+    margin-left: -338px;
+  }
+  .main-container {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+  .footer {
+    margin: 8px 52px 83.5px 52px;
+  }
+}
+@media (min-width: 1000.1px) and (max-width: 1200px) {
+  .header {
+    padding-left: 38px;
+    padding-right: 38px;
+  }
+  .header__search-icon {
+    display: none;
+  }
+  .article-heading__list-bullet-menu {
+    display: none;
+  }
+  .sidebar {
+    width: 182px;
+    padding: 0 52px 0 44px;
+  }
+  .main-container {
+    padding-right: 44px;
+    padding-left: 276px;
+  }
+}
+@media (min-width: 1200.1px) {
+  .header__search-icon {
+    display: none;
+  }
+  .article-heading__list-bullet-menu {
+    display: none;
+  }
+}
+#main-flexbox-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container, .fullscreen-fixed-pos-button, .main-bottom-links1__flexbox-bottom-links, figure, .article-table-subcontainer__article-container1, .article-heading__tools-dropdown, .article-heading__language-dropdown, .header__search-icon-container, .header__right-section, .header__middle-section, .header__wikipedia-logos-container, .header__wiki-container, .header__left-section {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 254px 1fr;
+  column-gap: 36px;
+  padding: 8px 46px 0px 46px;
+  margin-bottom: 39px;
+  height: 50px;
+}
+
+.header__left-section {
+  height: 50px;
+}
+
+.header__hamburger-menu {
+  height: 20px;
+  padding: 6px;
+  margin-right: 14px;
+  transition: background-color 0.15s;
+}
+
+.header__hamburger-menu:hover {
+  background-color: rgb(248, 249, 250);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.header__hamburger-menu:active {
+  border: 1px solid rgb(162, 169, 177);
+  background-color: rgb(232, 231, 231);
+  padding: 5px;
+  margin-right: 14.5px;
+}
+
+.header__wiki-container {
+  cursor: pointer;
+}
+
+.header__wikipedia-globe-icon {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header__wikipedia-logos-container {
+  flex-direction: column;
+}
+
+.header__wikipedia-wordmark-icon {
+  width: 120px;
+  margin-bottom: 5px;
+}
+
+.header__wikipedia-tagline-icon {
+  width: 117px;
+}
+
+.header__right-grid-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__middle-section {
+  flex: 1;
+  max-width: 476.5px;
+  margin-right: 12px;
+}
+
+.header__search-bar {
+  padding: 7px;
+  flex: 1;
+  height: 32px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  border: 1px solid rgb(162, 169, 177);
+}
+
+.header__search-button {
+  background-color: rgb(248, 249, 250);
+  border: 1px solid rgb(162, 169, 177);
+  height: 32px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  margin-left: -3px;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 6px 11px;
+  overflow: hidden;
+  transition: background-color 0.15s;
+}
+
+.header__search-button:hover {
+  border: 1px solid rgb(162, 169, 177);
+  background-color: rgb(255, 255, 255);
+}
+
+.header__search-button:active {
+  border: 1px solid rgb(162, 169, 177);
+  background-color: rgb(232, 231, 231);
+}
+
+.header__search-icon {
+  height: 20px;
+  padding: 6px;
+  margin-right: 12px;
+  transition: background-color 0.15s;
+}
+
+.header__search-icon:hover {
+  background-color: rgb(248, 249, 250);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.header__search-icon:active {
+  border: 1px solid rgb(162, 169, 177);
+  background-color: rgb(232, 231, 231);
+  padding: 5.5px;
+  margin-right: 13.5px;
+}
+
+.header__login-link {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.header__ellipsis-icon {
+  height: 20px;
+  padding: 6px;
+  transition: background-color 0.15s;
+}
+
+.header__ellipsis-icon:hover {
+  background-color: rgb(248, 249, 250);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.header__ellipsis-icon:active {
+  border: 1px solid rgb(162, 169, 177);
+  background-color: rgb(232, 231, 231);
+  padding: 5px;
+  margin-left: 0.5px;
+}
+
+#main-flexbox-container {
+  display: flex;
+  justify-content: center;
+}
+
+.container, .fullscreen-fixed-pos-button, .main-bottom-links1__flexbox-bottom-links, figure, .article-table-subcontainer__article-container1, .article-heading__tools-dropdown, .article-heading__language-dropdown, .header__left-section, .header__wiki-container, .header__wikipedia-logos-container, .header__middle-section, .header__right-section, .header__search-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 147px;
+  left: 0;
+  bottom: 295px;
+  width: 234px;
+  padding: 0 52px 0 52px;
+  z-index: 100;
+}
+
+.sidebar__hide-link {
+  font-size: 13.3px;
+}
+
+.sidebar__hide-link:hover {
+  text-decoration: none;
+}
+
+.sidebar__heading {
+  border-bottom: 1px solid rgb(234, 234, 234);
+  color: rgb(84, 89, 93);
+  padding-bottom: 7px;
+}
+
+.sidebar__link-top {
+  padding-top: 6px;
+  color: rgb(32, 33, 34);
+}
+
+.sidebar__links {
+  padding-bottom: 12px;
+}
+
+.article-heading__container {
+  border-bottom: 1px solid rgb(162, 169, 177);
+}
+
+.article-heading__list-bullet-menu {
+  height: 20px;
+  padding: 6px;
+  margin: 0 14px -6px -6px;
+  transition: background-color 0.15s;
+}
+
+.article-heading__list-bullet-menu:hover {
+  background-color: rgb(248, 249, 250);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.article-heading__list-bullet-menu:active {
+  border: 1px solid rgb(162, 169, 177);
+  background-color: rgb(232, 231, 231);
+  padding: 5px;
+  margin-right: 14.5px;
+}
+
+.article-heading__tool-bar {
+  border-bottom: 1px solid rgb(200, 204, 209);
+  padding: 9px 0;
+  margin-bottom: 7px;
+}
+
+.article-heading__wiki-coordinates {
+  margin-bottom: 19.5px;
+}
+
+.article-heading__title {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 28.8px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.article-heading__language-dropdown {
+  padding: 11px;
+  margin-right: -11px;
+  margin-bottom: 4px;
+  transition: background-color 0.15s;
+}
+
+.article-heading__language-dropdown:hover {
+  background-color: rgb(225, 242, 255);
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.article-heading__language-link,
+.article-heading__language-link:hover {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.article-heading__language-link {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+.article-heading__article-links1 {
+  font-size: 13px;
+  padding-right: 12px;
+}
+
+.article-heading__article-links2 {
+  font-size: 13px;
+  padding-right: 16px;
+}
+
+.article-heading__red-link, .history-container__red-link {
+  color: rgb(215, 51, 51);
+}
+
+.article-heading__tool-bar-right {
+  display: flex;
+}
+
+.article-heading__tools-dropdown {
+  border-radius: 2px;
+  padding: 9px 0;
+  margin: -9px 0;
+  cursor: pointer;
+  transition: background-color 0.15s;
+}
+
+.article-heading__tools-dropdown:hover {
+  background-color: rgb(248, 249, 250);
+}
+
+.article-heading__tools-link {
+  font-size: 13px;
+  color: black;
+  padding-right: 4px;
+}
+
+.article-heading__tools-link:hover {
+  text-decoration: none;
+}
+
+.article-heading__source-footnote {
+  font-size: 12.8px;
+}
+
+.article-heading__coordinates-container {
+  display: flex;
+}
+
+.article-heading__coordinates {
+  font-size: 12px;
+}
+
+.main-content-container {
+  display: flex;
+}
+
+.article-body-subcontainer {
+  flex: 1;
+  padding-right: 12.32px;
+  line-height: 22.4px;
+}
+
+.article-table-subcontainer {
+  width: 271px;
+  font-size: 12.4px;
+}
+
+.article-introduction__boer-republic-link {
+  position: relative;
+}
+
+.article-introduction__boer-republic-link .tooltip {
+  position: absolute;
+  display: flex;
+  border-radius: 2px;
+  height: 250px;
+  opacity: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  transition: opacity 0.15s;
+  right: 0;
+  z-index: 300;
+}
+
+.article-introduction__boer-republic-link:hover .tooltip {
+  opacity: 1;
+}
+
+.article-introduction__tooltip-sub-container-left {
+  background-color: white;
+  padding: 16px;
+  width: 214px;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+  color: black;
+}
+
+.article-introduction__boer-republics-img {
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.article-introduction__boer-republic-link .tooltip-cog {
+  width: 15px;
+  margin-bottom: -15px;
+  margin-left: 20px;
+}
+
+.article-introduction__namibia-link {
+  position: relative;
+}
+
+.article-introduction__namibia-link .tooltip {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  width: 315px;
+  opacity: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  transition: opacity 0.15s;
+  left: 0;
+  z-index: 300;
+}
+
+.article-introduction__namibia-link:hover .tooltip {
+  opacity: 1;
+}
+
+.article-introduction__tooltip-sub-container-bottom {
+  background-color: white;
+  height: 180px;
+  padding: 16px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  color: black;
+}
+
+.article-introduction__namibia-img {
+  height: 190px;
+  object-fit: cover;
+  object-position: center;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.article-introduction__namibia-link .tooltip-cog {
+  width: 15px;
+  margin-bottom: -25px;
+  margin-left: 10px;
+}
+
+.article-introduction__german-swa-link {
+  position: relative;
+}
+
+.article-introduction__german-swa-link .tooltip {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  width: 318px;
+  opacity: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  pointer-events: none;
+  transition: opacity 0.15s;
+  right: -50px;
+  top: 20px;
+  z-index: 300;
+}
+
+.article-introduction__german-swa-link:hover .tooltip {
+  opacity: 1;
+}
+
+.article-introduction__tooltip-sub-container-bottom {
+  background-color: white;
+  height: 180px;
+  padding: 16px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  color: black;
+}
+
+.article-introduction__german-swa-img {
+  height: 190px;
+  object-fit: cover;
+  object-position: center;
+  border-top-right-radius: 2px;
+  border-top-left-radius: 2px;
+}
+
+.article-introduction__german-swa-link .tooltip-cog {
+  width: 15px;
+  margin-bottom: -65px;
+  margin-left: 190px;
+}
+
+.sub-header-container {
+  margin: 24px 0 6px 0;
+  border-bottom: 1px solid rgb(162, 169, 177);
+}
+
+.main-sub-headers {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 21px;
+  margin-right: 8px;
+}
+
+.history-container__paragraph {
+  margin: 0 0 7px 0;
+}
+
+.italic-span {
+  font-style: italic;
+}
+
+sup {
+  line-height: 0;
+}
+
+.superscript {
+  font-size: 11px;
+}
+
+.notes-links-container {
+  font-size: 12.6px;
+  line-height: 21px;
+}
+
+.notes-links-container a {
+  font-weight: 700;
+  font-style: italic;
+}
+
+.notes-links-container ol {
+  list-style-type: decimal;
+  margin: 0;
+}
+
+.article-table-subcontainer__info {
+  border-left: 1px solid rgb(162, 169, 177);
+  border-right: 1px solid rgb(162, 169, 177);
+  border-top: 1px solid rgb(162, 169, 177);
+  background-color: rgb(248, 249, 250);
+}
+
+.article-table-subcontainer__main-flag {
+  height: 150px;
+  margin-bottom: 4px;
+}
+
+.article-table-subcontainer__box-header {
+  font-size: 15.4px;
+  font-weight: 700;
+}
+
+.article-table-subcontainer__box-header2 {
+  font-size: 13px;
+  font-style: italic;
+  margin-top: 7px;
+}
+
+.article-table-subcontainer__article-container1 {
+  flex-direction: column;
+  border-bottom: 1px solid rgb(162, 169, 177);
+  padding: 6.2px 0;
+  font-size: 12.4px;
+}
+
+figure {
+  flex-direction: column;
+  margin: 2px;
+}
+
+.article-table-subcontainer__duration-container {
+  padding: 5px 0;
+}
+
+.article-table-subcontainer__article-container2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  border-bottom: 1px solid rgb(162, 169, 177);
+  padding: 4.94px 7.4px;
+  font-size: 12.4px;
+}
+
+.language-span {
+  font-size: 10.5px;
+}
+
+.article-table-subcontainer__president-header {
+  margin-top: 5.5px;
+  margin-bottom: 5px;
+}
+
+.article-table-subcontainer__president-name {
+  margin-top: 10.5px;
+}
+
+.article-table-subcontainer__right-side-align {
+  width: 84.5px;
+}
+
+.article-table-subcontainer__article-table-subcontainer__right-align-sub-div {
+  margin-top: 2.5px;
+}
+
+.article-table-subcontainer__first-line {
+  margin-top: 7.5px;
+}
+
+.article-table-subcontainer__article-sub-header {
+  margin-bottom: 7.5px;
+}
+
+.article-table-subcontainer__flag-icon1 {
+  height: 15px;
+  vertical-align: middle;
+}
+
+.article-table-subcontainer__article-info-sub-div {
+  line-height: 14.8px;
+  margin-left: 3.5px;
+  margin-top: 2.5px;
+}
+
+.article-table-subcontainer__indent-second-line {
+  padding-left: 11px;
+  font-size: 12.4px;
+}
+
+.article-table-subcontainer__preceded-succeeded {
+  padding: 10px 24px;
+}
+
+.article-table-subcontainer__before-after-nationality {
+  width: 100px;
+}
+
+.article-table-subcontainer__sub-header {
+  font-weight: 700;
+}
+
+.article-table-subcontainer__precede-succeed {
+  text-align: center;
+  margin-bottom: 7px;
+}
+
+.article-table-subcontainer__people-group {
+  display: inline-block;
+  vertical-align: middle;
+  width: 70px;
+}
+
+.article-table-subcontainer__succeeded-by {
+  text-align: end;
+}
+
+.article-table-subcontainer__flag-icon2 {
+  height: 13px;
+  width: 20px;
+  vertical-align: middle;
+}
+
+.map-container {
+  text-align: center;
+  margin-top: 13px;
+  background-color: rgb(248, 249, 250);
+  border: 1px solid rgb(200, 204, 209);
+  padding: 3px;
+  width: 223px;
+}
+
+.map-container__map-photo {
+  width: 220px;
+  border: 1px solid rgb(200, 204, 209);
+}
+
+.map-container__map-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12.3px;
+  padding: 0 3px 3px 3px;
+}
+
+.map-container__map-text figcaption {
+  text-align: left;
+}
+
+.map-container__map-text div {
+  width: 180px;
+  text-align: left;
+  line-height: 17.4px;
+}
+
+.main-bottom-links1 {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid rgb(162, 169, 177);
+  border-right: 1px solid rgb(162, 169, 177);
+  border-top: 1px solid rgb(162, 169, 177);
+  margin-top: 18px;
+}
+
+.main-bottom-links1__subcontainer {
+  background-color: rgb(253, 253, 253);
+  border-bottom: 1px solid rgb(162, 169, 177);
+  padding: 3px;
+}
+
+.main-bottom-links1__flexbox-bottom-links {
+  justify-content: space-between;
+  background-color: rgb(204, 204, 255);
+  padding: 3px 12.3px;
+}
+
+.main-bottom-links1__bottom-links-header {
+  font-weight: 700;
+}
+
+.main-bottom-links1__bottom-links-left {
+  font-size: 9px;
+  font-weight: 600;
+  line-height: 18.4px;
+}
+
+.main-bottom-links1__bottom-links-right {
+  font-size: 12.3px;
+}
+
+.main-bottom-links2 {
+  padding: 5px;
+  border: 1px solid rgb(162, 169, 177);
+  background-color: rgb(248, 249, 250);
+  line-height: 22px;
+  margin: 19px 0 74px 0;
+}
+
+.main-bottom-links2 ul {
+  display: inline;
+  padding: 0;
+}
+
+.main-bottom-links2 li {
+  list-style-type: none;
+  display: inline;
+}
+
+.main-bottom-links2__first-list-item {
+  padding: 0 7px 0 3px;
+}
+
+.main-bottom-links2__list-item-border {
+  border-left: 1px solid rgb(162, 169, 177);
+  padding: 0 7px;
+}
+
+.edit-link {
+  font-size: 13px;
+}
+
+.main-flexbox-container__content-body {
+  background-color: white;
+  max-width: 1600px;
+  position: relative;
+}
+
+.fullscreen-fixed-pos-button {
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  right: 8px;
+  padding: 5.4px;
+  background-color: rgb(248, 249, 250);
+  border: 0.75px solid rgb(162, 169, 177);
+  border-radius: 2px;
+  transition: background-color 0.15s;
+}
+
+.fullscreen-fixed-pos-button:hover {
+  border: 1px solid rgb(162, 169, 177);
+  background-color: rgb(255, 255, 255);
+}
+
+.fullscreen-fixed-pos-button:active {
+  border: 1px solid rgb(162, 169, 177);
+  background-color: rgb(232, 231, 231);
+}
+
+.main-container {
+  padding: 0 107px 0 336px;
+  max-width: 970px;
+}
+
+.container {
+  justify-content: space-between;
+}

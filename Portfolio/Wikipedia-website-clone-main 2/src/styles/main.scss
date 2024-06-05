@@ -1,0 +1,50 @@
+@import 'normalize';
+@import 'partials/variables';
+@import 'base';
+@import 'layout';
+@import 'header';
+@import 'sidebar';
+@import 'article';
+
+#main-flexbox-container {
+  @extend %shared-layout-justify;
+}
+
+.main-flexbox-container__content-body {
+  background-color: $general-background-color;
+  max-width: 1600px;
+  position: relative;
+}
+
+.fullscreen-fixed-pos-button {
+  @extend %shared-layout-align;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  right: 8px;
+  padding: 5.4px;
+  background-color: $primary-background-color;
+  border: 0.75px solid $border-color;
+  border-radius: 2px;
+  transition: background-color 0.15s;
+}
+
+.fullscreen-fixed-pos-button:hover {
+  border: $border-properties;
+  background-color: $button-hover-background-color;   
+}
+
+.fullscreen-fixed-pos-button:active {
+  border: $border-properties;
+  background-color: $button-background-color;  
+}
+
+.main-container{
+  padding: 0 107px 0 336px;
+  max-width: 970px;
+}
+
+.container{
+  @extend %shared-layout-align;
+  justify-content: space-between;
+}

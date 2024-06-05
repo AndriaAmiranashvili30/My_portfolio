@@ -1,0 +1,171 @@
+@import 'partials/variables';
+
+.footer {
+  margin: 8px 52px 83.5px 52px;
+  border-top: $border-properties;
+}
+
+.footer__top-container {
+  padding: 12px 0 0 0;
+}
+
+footer div {
+  font-size: 12px;
+  line-height: 16.8px;
+  padding: 6px 0;
+}
+
+.footer__wiki-bottom-links {
+  display: flex;
+  line-height: 24px;
+}
+
+.footer__wiki-bottom-links ul {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__wiki-bottom-links li {
+  list-style-type: none;
+  display: inline;
+  padding: 0 8.7px 0 0;
+}
+
+.footer__wiki-bottom-buttons-container {
+  text-align: end;
+  padding: 0;
+}
+
+.footer__wiki-bottom-buttons {
+  width: 88px;
+  height: 31px;
+  padding-left: 3px;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width:720px) {
+  .header{
+      padding-left: 18px;
+      padding-right: 18px;
+  }
+
+  .header__wikipedia-globe-icon{
+      display: none;
+  }
+
+  .header__middle-section{
+      display: none;
+  }
+
+  .header__right-grid-container{
+      justify-content: end;
+  }
+
+  .article-links2{
+      display: none;
+  }
+
+  .header__create-account-link{
+      display: none;
+  }
+
+  .fullscreen-fixed-pos-button{
+      display: none;
+  }
+
+  .header__login-link{
+      display: none;
+  }
+
+  .sidebar{
+      margin-left: -338px;
+  }
+  
+  .main-container{
+      padding-right: 24px;
+      padding-left: 24px;
+  }
+
+  .footer{
+      margin: 8px 24px 83.5px 24px;
+  }
+}
+
+@media (min-width:720.1px) and (max-width:1000px) {
+  .header{
+      padding-left: 18px;
+      padding-right: 18px;
+  }
+
+  .header__middle-section{
+      display: none;
+  }
+
+  .header__right-grid-container{
+      justify-content: end;
+  }
+
+  .header__create-account-link{
+      padding: 0 2px 0 2.5px;
+  }
+
+  .fullscreen-fixed-pos-button{
+      display: none;
+  }
+
+  .header__login-link{
+      padding: 0 6px 0 6px;
+  }
+
+  .sidebar{
+      margin-left: -338px;
+  }
+  
+  .main-container{
+      padding-right: 24px;
+      padding-left: 24px;
+  }
+
+  .footer{
+      margin: 8px 52px 83.5px 52px;
+  }
+}
+
+@media (min-width:1000.1px) and (max-width:1200px) {
+  .header{
+   padding-left: 38px;
+   padding-right: 38px;
+  }
+  
+   .header__search-icon{
+       display: none;
+   }
+
+   .article-heading__list-bullet-menu{
+      display: none;
+   }
+
+   .sidebar{
+      width: 182px;
+      padding: 0 52px 0 44px;
+   }
+
+   .main-container{
+      padding-right: 44px;
+      padding-left: 276px;
+  }
+}
+
+@media (min-width:1200.1px) {
+  .header__search-icon{
+      display: none;
+  }
+  
+  .article-heading__list-bullet-menu{
+      display: none;
+   }
+}
